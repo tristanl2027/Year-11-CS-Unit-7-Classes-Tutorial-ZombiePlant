@@ -26,7 +26,7 @@ public class ZombiePlant {
 
     public void treat(int treatValue){
         if (treatments>0) {
-            if((treatValue>0) && treatValue <= potency){
+            if((treatValue>0) && treatValue=<potency){
                 treatments--;
             }
             else if (treatValue>0){
